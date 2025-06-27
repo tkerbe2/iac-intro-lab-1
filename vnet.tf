@@ -24,6 +24,7 @@ resource "azurerm_virtual_network" "example" {
   subnet {
     name             = "web"
     address_prefixes = ["10.0.1.0/24"]
+    security_group   = azurerm_network_security_group.nsg_main.id
   }
 
 # I add a second subnet here and call it app
@@ -31,7 +32,6 @@ resource "azurerm_virtual_network" "example" {
   subnet {
     name             = "app"
     address_prefixes = ["10.0.2.0/24"]
-    security_group   = azurerm_network_security_group.rg_main.id
   }
 
 # Tags are helpful to label and identify resources for certain uses or departments for billing

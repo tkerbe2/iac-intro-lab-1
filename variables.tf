@@ -20,7 +20,7 @@ variable "org" {
 variable "region" {
     type    = string
 # A default value allows you to leave the variable blank and utilize this value
-    default = "US Central"
+    default = "centralus
 }
 
 variable "env" {

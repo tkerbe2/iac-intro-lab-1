@@ -4,6 +4,7 @@
 
 # Here I am defining the variables
 # Since it's a string I am using double quotes
-env = "lab"
-org = "tkdev"
+env    = "lab"
+org    = "tkdev"
+region = "uscentral" 
 

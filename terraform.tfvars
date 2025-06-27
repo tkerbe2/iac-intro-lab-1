@@ -16,9 +16,6 @@ variable "org" {
     description = "Should be the name of an organization"
 }
 
-# Here I am defining the variable
-# Since it's a string I am using double quotes
-org = "tkdev"
 
 variable "region" {
     type    = string
@@ -32,4 +29,3 @@ variable "env" {
     description = "Should be the name of an environment like prod, dev, test, etc."
 }
 
-env = "lab"

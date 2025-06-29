@@ -6,5 +6,5 @@
 # Since it's a string I am using double quotes
 env    = "lab"
 org    = "tkdev"
-region = "uscentral" 
+region = "centralus" 
 

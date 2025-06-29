@@ -4,7 +4,7 @@
 
 resource "azurerm_network_security_group" "nsg_main" {
 # Below I'm giving an example of how we can get clever and use variables in names using 
-  name                = "${var.org}"-"${var.region}"
+  name                = "${var.org}-${var.region}"
   location            = azurerm_resource_group.rg_main.location
   resource_group_name = azurerm_resource_group.rg_main.name
 

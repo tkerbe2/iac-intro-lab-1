@@ -1,3 +1,5 @@
+![tkdev_secondary](https://github.com/user-attachments/assets/45692378-8f3e-4df0-adb4-74b4d047a0d8)
+
 # Azure VNet Demonstration
 
 This is a simple deployment that I've created to introduce you to the Terraform CLI, Terraform state, and deploying your first code. 

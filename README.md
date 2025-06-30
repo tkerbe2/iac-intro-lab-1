@@ -2,7 +2,7 @@
 
 # Azure VNet Demonstration
 
-This is a simple deployment that I've created to introduce you to the Terraform CLI, Terraform state, and deploying your first code. 
+This lab will familiarize you with editing Terraform code, using the basic Terraform CLI commands, and lastly deploying resources.  
 
 ### Terraform Variables:
 

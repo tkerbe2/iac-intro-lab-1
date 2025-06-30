@@ -27,16 +27,14 @@ region = "centralus"
 ```
 
 ### Resources Created:
-This demo creates the following resources in the following order:
+This demo creates the following resources:
 
-1. VPC
-2. Subnets based on what is defined in terraform.tfvars
-3. IGW attached to the VPC
-4. Default route table that points 0.0.0.0/0 to the IGW
-5. Security Group that allows 80 and 22 TCP inbound from anywhere (lock this down for further security)
-6. EIPs based on how many zones you've defined (default is 2)
-7. EC2 Instance(s) with Amazon Linux based on how many zones you've defined (default is 2)
-8. S3 bucket with some randomly generated characters (optionally can use this for logging on the ALB) 
+1. Resource Group
+2. Virtual Network (VNet)
+3. (2) Subnets
+4. Network Security Group (NSG)
+5. An NSG Policy allowing TCP 443 Inbound
+
 
 
 

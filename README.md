@@ -75,6 +75,7 @@ on linux_amd64
 Your version of Terraform is out of date! The latest version
 is 1.12.2. You can update by downloading from https://www.terraform.io/downloads.html
 ```
+<br>
 
 ### 11. Verify you're still in the directory with TF files and perform a Terraform init:
 ```pwd```

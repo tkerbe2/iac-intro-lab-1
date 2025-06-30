@@ -7,5 +7,5 @@
 env    = "lab"
 org    = "tkdev"
 region = "centralus"
-sub_id = ""
+
 

@@ -58,7 +58,8 @@ This is showing you your Azure subscription ID, this is highly sensitive.
 - Ctrl+O to write your changes
 - Ctrl+X to exit nano
 
-![image](https://github.com/user-attachments/assets/03956018-6355-4520-8b94-12e1d805753c)
+![image](https://github.com/user-attachments/assets/edeac33b-d69b-4d3d-9d70-79ebf7c39b0a)
+
 
 
 

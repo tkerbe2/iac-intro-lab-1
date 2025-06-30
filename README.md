@@ -116,4 +116,5 @@ A successful Terraform plan should have similar output at the bottom:
 ```terraform apply -auto-approve```
 
 - A successful apply should yield the following output:
+<br>
 ```Apply complete! Resources: 3 added, 0 changed, 0 destroyed.```

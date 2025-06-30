@@ -101,4 +101,16 @@ If you are successful you should see soemthing similiar to the screenshot below:
 ### 12. Run a Terraform plan command:
 ```terraform plan```
 
+A successful Terraform plan should have similar output at the bottom:
+```Plan: 3 to add, 0 to change, 0 to destroy.```
+
+<br>
+
+### 13. Run a Terraform apply command:
+```terraform apply```
+![image](https://github.com/user-attachments/assets/cf6cdd57-8c97-4c19-8572-37cbe58c66ee)
+- Type yes and hit enter to proceed
+
+*Additionally you can use the following option to skip the validation check:*
+```terraform apply -auto-approve```
 

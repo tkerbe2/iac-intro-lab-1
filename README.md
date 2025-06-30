@@ -115,3 +115,5 @@ A successful Terraform plan should have similar output at the bottom:
 *Additionally you can use the following option to skip the validation check:*
 ```terraform apply -auto-approve```
 
+- A successful apply should yield the following output:
+```Apply complete! Resources: 3 added, 0 changed, 0 destroyed.```

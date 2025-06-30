@@ -37,15 +37,19 @@ This is showing you your Azure subscription ID, this is highly sensitive.
 ### 6. Use GitHub to clone the repo with the following command:
 ```git clone https://github.com/tkerbe2/tkdev-azure-terraform-cli-demo```
 
+<br>
+
 ### 7. Move to the new directory
 ```cd tkdev-azure-terraform-cli-demo```
+
+<br>
 
 ### 8. Make sure all your files are there as you should see the following:
 ```ls```
 
 ![image](https://github.com/user-attachments/assets/2a2ef8b4-8e83-477d-af32-9c2eb841ec8a)
 
-
+<br>
 
 ### Terraform Variables:
 

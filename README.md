@@ -64,8 +64,9 @@ This is showing you your Azure subscription ID, this is highly sensitive.
 
 ### 10. Verify Terraform is installed with the version command:
 ```terraform version```
+<br>
 Your output should look like what is below:
-
+<br>
 ```
 Terraform v1.11.3
 on linux_amd64

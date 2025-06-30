@@ -51,6 +51,21 @@ This is showing you your Azure subscription ID, this is highly sensitive.
 
 <br>
 
+### 9. Use nano or vi to edit the terraform.tfvars file (I use nano in this guide):
+```nano terraform.tfvars```
+
+- Here you will change the name of the env variable to "prod" and change the org to something else
+- Ctrl+O to write your changes
+- Ctrl+X to exit nano
+
+![image](https://github.com/user-attachments/assets/03956018-6355-4520-8b94-12e1d805753c)
+
+
+
+
+
+
+
 ### Terraform Variables:
 
 In the terraform.tfvars file you will want to configure the following variables:

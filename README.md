@@ -11,15 +11,23 @@ This lab will familiarize you with editing Terraform code, using the basic Terra
 ### 1. Log into Azure and open Cloud Shell
 ![cloudshell](https://github.com/user-attachments/assets/a24f345c-e380-4f54-8a4b-f6b8463c023e)
 
+<br>
+
 ### 2. Launch a Bash Cloud Shell
 ![image](https://github.com/user-attachments/assets/e03421ca-8057-4539-bfe8-c638d9473b3b)
+
+<br>
 
 ### 3. Run the following command:
 ```az account show --query id --output tsv```
 This is showing you your Azure subscription ID, this is highly sensitive.
 
+<br>
+
 ### 4. Save this output somewhere safe or additionally turn it into a bash variable with this command:
 ```sub_id=$(az account show --query id --output tsv)```
+
+<br>
 
 ### 5. Use GitHub to clone the repo with the following command:
 ```git clone https://github.com/tkerbe2/tkdev-azure-terraform-cli-demo```

@@ -108,6 +108,7 @@ A successful Terraform plan should have similar output at the bottom:
 
 ### 13. Run a Terraform apply command:
 ```terraform apply```
+<br>
 ![image](https://github.com/user-attachments/assets/cf6cdd57-8c97-4c19-8572-37cbe58c66ee)
 - Type yes and hit enter to proceed
 

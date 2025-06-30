@@ -16,8 +16,8 @@ This is a simple deployment that I've created to introduce you to the Terraform 
 
 <br>
 
-'''
-#===================#
+
+'''#===================#
 # Variables Defined #
 #===================#
 
@@ -25,10 +25,8 @@ This is a simple deployment that I've created to introduce you to the Terraform 
 # Since it's a string I am using double quotes
 env    = "lab"
 org    = "tkdev"
-region = "centralus" 
+region = "centralus" ```
 
-
-```
 ### Resources Created:
 This demo creates the following resources in the following order:
 

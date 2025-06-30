@@ -60,11 +60,34 @@ This is showing you your Azure subscription ID, this is highly sensitive.
 
 ![image](https://github.com/user-attachments/assets/edeac33b-d69b-4d3d-9d70-79ebf7c39b0a)
 
+<br>
 
+### 10. Verify Terraform is installed with the version command:
+```terraform version```
+Your output should look like what is below:
 
+```
+Terraform v1.11.3
+on linux_amd64
++ provider registry.terraform.io/hashicorp/azurerm v4.34.0
 
+Your version of Terraform is out of date! The latest version
+is 1.12.2. You can update by downloading from https://www.terraform.io/downloads.html
+```
 
+### 11. Verify you're still in the directory with TF files and perform a Terraform init:
+```pwd```
+```/home/taylor/tkdev-azure-terraform-cli-demo```
+```terraform init```
 
+If you are successful you should see soemthing similiar to the screenshot below:
+
+![image](https://github.com/user-attachments/assets/adb4467b-d08b-4e25-88d0-66ca8205a45c)
+
+<br>
+
+### 12. Run a Terraform plan
+```terraform plan```
 
 
 ### Terraform Variables:

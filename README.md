@@ -9,10 +9,10 @@ This lab will familiarize you with editing Terraform code, using the basic Terra
 # Lab Steps
 
 ### 1. Log into Azure and open Cloud Shell
-
 ![cloudshell](https://github.com/user-attachments/assets/a24f345c-e380-4f54-8a4b-f6b8463c023e)
 
 ### 2. Launch a Bash Cloud Shell
+![image](https://github.com/user-attachments/assets/e03421ca-8057-4539-bfe8-c638d9473b3b)
 
 ### 3. Run the following command:
 ```az account show --query id --output tsv```

@@ -3,26 +3,20 @@
 In the terraform.tfvars file you will want to configure the following variables:
 
 | Variable Name | Value and Constraints | File Location | 
-| ---------------|------------------------------|----------|
-| region | Should be a valid Azure region | terraform.tfvars
-| org | Can be a fake company or just your name for example | terraform.tfvars
-| env | This is short for environment think: prod, dev, stage, test, etc.. | terraform.tfvars
+| ---------------|------------------------------|------------|
+| region | Should be a valid Azure region | terraform.tfvars |
+| org | Can be a fake company or just your name for example | terraform.tfvars |
+| env | This is short for environment think: prod, dev, stage, test, etc.. | terraform.tfvars |
 
 
 # Azure VNet Demonstration
 
-I created this lab as an example for my Hennepin Tech students. The first part of this lab is to create a functioning highly available web application in the AWS Console. The second component of this lab is deploying these same resources with code. The focus and intent of this lab is to familiarize with AWS Console (VPC[^1], EC2[^2], S3[^3]) and recognize the advantages of using IaC.  
+This is a simple deployment that I've created to introduce you to the Terraform CLI, Terraform state, and deploying your first code. 
 
-[^1]: In this lab we specifically build many components with the VPC service: [VPC Reference](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
-[^2]: In this lab we we create an ALB and EC2 instances with the EC2 service: [EC2 Reference](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html)
-[^3]: In this lab we create an S3 bucket with the S3 service: [S3 Reference](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html)
 
 <br>
 
-#========================#
-# Declare Variables Here #
-#========================#
-
+'''
 #===================#
 # Variables Defined #
 #===================#
@@ -33,28 +27,6 @@ env    = "lab"
 org    = "tkdev"
 region = "centralus" 
 
-#====================#
-# Network Variables  #
-#====================#
-
-# /23 supports up to 512 usable IPs
-# 192.168.10.1 - 192.168.11.254
-vpc_cidr = "192.168.10.0/23"
-
-# AZ list used for naming and looping mechanism
-# us-west-1 doesn't have a b
-availability_zones = {
-    0 = "us-west-1a"
-    1 = "us-west-1c"
-}
-
-# How many subnets to create
-# This should match the availability_zones
-
-
-# What size of network you want
-# 5 is a /28
-borrowed_bits = 5
 
 ```
 ### Resources Created:

@@ -4,6 +4,21 @@
 
 This lab will familiarize you with editing Terraform code, using the basic Terraform CLI commands, and lastly deploying resources.  
 
+<br>
+
+# Lab Steps
+
+## 1.
+
+Log into Azure and open Cloud Shell
+
+![image](https://github.com/user-attachments/assets/f7ad988d-d657-4033-8505-634e5d67388e)
+
+
+
+
+
+
 ### Terraform Variables:
 
 In the terraform.tfvars file you will want to configure the following variables:
@@ -23,19 +38,20 @@ In the terraform.tfvars file you will want to configure the following variables:
 
 # Here I am defining the variables
 # Since it's a string I am using double quotes
-env    = "lab"
-org    = "tkdev"
+env    = "prod"
+org    = "abc"
 region = "centralus"
+sub_id = ""
 ```
 
 ### Resources Created:
 This demo creates the following resources:
 
-1. Resource Group
-2. Virtual Network (VNet)
-3. (2) Subnets
-4. Network Security Group (NSG)
-5. An NSG Policy allowing TCP 443 Inbound
+- Resource Group
+- Virtual Network (VNet)
+- (2) Subnets
+- Network Security Group (NSG)
+- An NSG Policy allowing TCP 443 Inbound
 
 
 

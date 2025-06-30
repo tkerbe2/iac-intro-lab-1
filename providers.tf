@@ -17,5 +17,5 @@ provider "azurerm" {
 # This is where you will add your subscription ID
 # I recommend passing this with GitHub secrets or as a Terraform Cloud secure variable
 # For my demonstration I will just set it on my CloudShell file locally
-  subscription_id = ""
+  subscription_id = var.sub_id
 }

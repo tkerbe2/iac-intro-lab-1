@@ -16,7 +16,6 @@ variable "org" {
     description = "Should be the name of an organization"
 }
 
-
 variable "region" {
     type    = string
 # A default value allows you to leave the variable blank and utilize this value
@@ -27,4 +26,11 @@ variable "env" {
     type    = string
 # A default value allows you to leave the variable blank and utilize this value
     description = "Should be the name of an environment like prod, dev, test, etc."
+}
+
+variable "sub_id" {
+    type    = string
+# A default value allows you to leave the variable blank and utilize this value
+    description = "This should be your subscription ID"
+    sensitive = true
 }

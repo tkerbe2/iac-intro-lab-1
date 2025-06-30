@@ -6,5 +6,6 @@
 # Since it's a string I am using double quotes
 env    = "lab"
 org    = "tkdev"
-region = "centralus" 
+region = "centralus"
+sub_id = ""
 

@@ -14,7 +14,7 @@ In the terraform.tfvars file you will want to configure the following variables:
 
 <br>
 
-
+```
 #===================#
 # Variables Defined #
 #===================#
@@ -24,6 +24,7 @@ In the terraform.tfvars file you will want to configure the following variables:
 env    = "lab"
 org    = "tkdev"
 region = "centralus"
+```
 
 ### Resources Created:
 This demo creates the following resources in the following order:

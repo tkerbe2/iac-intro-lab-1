@@ -120,3 +120,12 @@ A successful Terraform plan should have similar output at the bottom:
 <br>
 
 ```Apply complete! Resources: 3 added, 0 changed, 0 destroyed.```
+
+### 14. Go verify your resources in Azure UI
+
+![image](https://github.com/user-attachments/assets/949dc15b-d8d9-483b-b7ed-dae5815b2bb8)
+
+### 15. Don't forget to destroy everything when you're done:
+```terraform destroy```
+
+

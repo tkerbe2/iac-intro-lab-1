@@ -1,3 +1,7 @@
+# Azure VNet Demonstration
+
+This is a simple deployment that I've created to introduce you to the Terraform CLI, Terraform state, and deploying your first code. 
+
 ### Terraform Variables:
 
 In the terraform.tfvars file you will want to configure the following variables:
@@ -8,16 +12,10 @@ In the terraform.tfvars file you will want to configure the following variables:
 | org | Can be a fake company or just your name for example | terraform.tfvars |
 | env | This is short for environment think: prod, dev, stage, test, etc.. | terraform.tfvars |
 
-
-# Azure VNet Demonstration
-
-This is a simple deployment that I've created to introduce you to the Terraform CLI, Terraform state, and deploying your first code. 
-
-
 <br>
 
 
-'''#===================#
+#===================#
 # Variables Defined #
 #===================#
 
@@ -25,7 +23,7 @@ This is a simple deployment that I've created to introduce you to the Terraform 
 # Since it's a string I am using double quotes
 env    = "lab"
 org    = "tkdev"
-region = "centralus" ```
+region = "centralus"
 
 ### Resources Created:
 This demo creates the following resources in the following order:

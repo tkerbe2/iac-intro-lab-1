@@ -22,6 +22,7 @@ This demo creates the following resources:
 <br>
 ![cloudshell](https://github.com/user-attachments/assets/a24f345c-e380-4f54-8a4b-f6b8463c023e)
 <br>
+
 ***
 
 ### 2. Launch a Bash Cloud Shell
@@ -37,6 +38,7 @@ This demo creates the following resources:
 <br>
 > **_Note:_** In a real world scenario we would want to pass this variable in a more secure way.
 <br>
+
 ***
 
 ### 4. Save the Subscription ID as a variable
@@ -49,11 +51,13 @@ This demo creates the following resources:
 <br>
 ```export TF_VAR_sub_id=$TF_VAR_sub_id```
 <br>
+
 ***
 
 ### 6. Clone the GitHub Repo
 ```git clone https://github.com/tkerbe2/tkdev-azure-terraform-cli-demo```
 <br>
+
 ***
 
 ### 7. Open the new directory
@@ -65,6 +69,7 @@ This demo creates the following resources:
 ```ls```
 ![image](https://github.com/user-attachments/assets/2a2ef8b4-8e83-477d-af32-9c2eb841ec8a)
 <br>
+
 ***
 
 ### 9. Edit the Terraform.tfvars file
@@ -74,6 +79,7 @@ This demo creates the following resources:
 - Ctrl+X to exit nano
 ![image](https://github.com/user-attachments/assets/edeac33b-d69b-4d3d-9d70-79ebf7c39b0a)
 <br>
+
 ***
 
 ### 10. Verify Terraform is installed
@@ -90,6 +96,7 @@ Your version of Terraform is out of date! The latest version
 is 1.12.2. You can update by downloading from https://www.terraform.io/downloads.html
 ```
 <br>
+
 ***
 
 ### 11. Initialize your new directory
@@ -102,6 +109,7 @@ is 1.12.2. You can update by downloading from https://www.terraform.io/downloads
 - If you are successful you should see something similiar to the screenshot below:
 ![image](https://github.com/user-attachments/assets/adb4467b-d08b-4e25-88d0-66ca8205a45c)
 <br>
+
 ***
 
 ### 12. Run a Terraform plan command
@@ -109,6 +117,7 @@ is 1.12.2. You can update by downloading from https://www.terraform.io/downloads
 A successful Terraform plan should have similar output at the bottom:
 ```Plan: 3 to add, 0 to change, 0 to destroy.```
 <br>
+
 ***
 
 ### 13. Run a Terraform apply command
@@ -121,11 +130,13 @@ A successful Terraform plan should have similar output at the bottom:
 - A successful apply should yield the following output:\
 <br>
 ```Apply complete! Resources: 3 added, 0 changed, 0 destroyed.```
+
 ***
 
 ### 14. Go verify your resources in Azure UI
 ![image](https://github.com/user-attachments/assets/949dc15b-d8d9-483b-b7ed-dae5815b2bb8)
 <br>
+
 ***
 
 ### 15. Destroy your resources and unset your variable
@@ -135,5 +146,6 @@ A successful Terraform plan should have similar output at the bottom:
 <br>
 - This will unset our variable
 ```unset TF_VAR_sub_id```
+
 ***
 

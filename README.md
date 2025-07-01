@@ -193,6 +193,7 @@ is 1.12.2. You can update by downloading from https://www.terraform.io/downloads
 - This will unset our variable
 
 <br>
+
 ```unset TF_VAR_sub_id```
 
 ***

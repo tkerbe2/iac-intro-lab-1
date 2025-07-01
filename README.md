@@ -201,7 +201,19 @@ is 1.12.2. You can update by downloading from https://www.terraform.io/downloads
 
 <br>
 
+# ✨ Congratulations!
 
+***
+
+You've finished this lab and have completed the following items:
+- ✅ Launched a bash Cloud Shell environment.
+- ✅ Saved your Subscription ID to a variable and exported it for Terraform.
+- ✅ Cloned the GitHub repo.
+- ✅ Modified some Terraform variables in the terraform.tfvars file.
+- ✅ Initialized your directory.
+- ✅ Ran a Terraform plan and applied the changes.
+- ✅ Verified your resources in the Azure UI.
+- ✅ Ran a Terraform destroy and unset your variables
 
 ***
 

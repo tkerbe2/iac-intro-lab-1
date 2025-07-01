@@ -97,6 +97,7 @@ This demo creates the following resources:
 - Ctrl+O to write your changes
 - Ctrl+X to exit nano
 <br>
+
 ![image](https://github.com/user-attachments/assets/edeac33b-d69b-4d3d-9d70-79ebf7c39b0a)
 
 ***

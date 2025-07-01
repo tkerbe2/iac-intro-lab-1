@@ -30,7 +30,7 @@ This demo creates the following resources:
 ### 3. Run the following command:
 ```az account show --query id --output tsv```
 <br>
-This is showing you your Azure subscription ID, this is highly sensitive.
+- This is showing you your Azure subscription ID, this is highly sensitive.
 <br>
 > **_Note:_** In a real world scenario we would want to pass this variable in a more secure way.
 
@@ -78,7 +78,7 @@ This is showing you your Azure subscription ID, this is highly sensitive.
 ### 10. Verify Terraform is installed with the version command:
 ```terraform version```
 <br>
-Your output should look like what is below:
+- Your output should look like what is below:
 <br>
 ```
 Terraform v1.11.3
@@ -97,7 +97,7 @@ is 1.12.2. You can update by downloading from https://www.terraform.io/downloads
 <br>
 ```terraform init```
 <br>
-If you are successful you should see something similiar to the screenshot below:
+- If you are successful you should see something similiar to the screenshot below:
 
 ![image](https://github.com/user-attachments/assets/adb4467b-d08b-4e25-88d0-66ca8205a45c)
 
@@ -131,9 +131,11 @@ A successful Terraform plan should have similar output at the bottom:
 ![image](https://github.com/user-attachments/assets/949dc15b-d8d9-483b-b7ed-dae5815b2bb8)
 
 ### 15. Don't forget to destroy everything when you're done
+- Terraform destroy will run a plan to destroy all resources and apply when confirmed.
+<br>
 ```terraform destroy```
 <br>
-*This will unset our variable*
+- This will unset our variable
 ```unset TF_VAR_sub_id```
 
 

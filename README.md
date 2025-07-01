@@ -31,6 +31,8 @@ This demo creates the following resources:
 ```az account show --query id --output tsv```
 <br>
 This is showing you your Azure subscription ID, this is highly sensitive.
+<br>
+> **_Note:_** In a real world scenario we would want to pass this variable in a more secure way.
 
 <br>
 
@@ -95,7 +97,7 @@ is 1.12.2. You can update by downloading from https://www.terraform.io/downloads
 <br>
 ```terraform init```
 <br>
-If you are successful you should see soemthing similiar to the screenshot below:
+If you are successful you should see something similiar to the screenshot below:
 
 ![image](https://github.com/user-attachments/assets/adb4467b-d08b-4e25-88d0-66ca8205a45c)
 

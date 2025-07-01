@@ -42,8 +42,8 @@ This is showing you your Azure subscription ID, this is highly sensitive.
 
 <br>
 
-### 5. Test and make sure your variable has the correct output:
-```echo $TF_VAR_sub_id```
+### 5. Use the export command so Terraform will recognize our variable:
+```export TF_VAR_sub_id=$TF_VAR_sub_id```
 
 <br>
 
@@ -130,7 +130,10 @@ A successful Terraform plan should have similar output at the bottom:
 
 ![image](https://github.com/user-attachments/assets/949dc15b-d8d9-483b-b7ed-dae5815b2bb8)
 
-### 15. Don't forget to destroy everything when you're done:
+### 15. Don't forget to destroy everything when you're done
 ```terraform destroy```
+<br>
+*This will unset our variable*
+```unset TF_VAR_sub_id```
 
 

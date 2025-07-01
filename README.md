@@ -18,16 +18,18 @@ This demo creates the following resources:
 # Lab Steps
 
 ### 1. Log into Azure and open Cloud Shell
+- In the top right corner of the UI there is a terminal looking icon.
 ![cloudshell](https://github.com/user-attachments/assets/a24f345c-e380-4f54-8a4b-f6b8463c023e)
 
 <br>
 
 ### 2. Launch a Bash Cloud Shell
+- You will be asked if you want to launch a bash or power shell cloud shell. Choose bash for this example.
 ![image](https://github.com/user-attachments/assets/e03421ca-8057-4539-bfe8-c638d9473b3b)
 
 <br>
 
-### 3. Run the following command:
+### 3. Find your Azure Subscription ID
 ```az account show --query id --output tsv```
 <br>
 - This is showing you your Azure subscription ID, this is highly sensitive.
@@ -36,35 +38,32 @@ This demo creates the following resources:
 
 <br>
 
-### 4. Save this output somewhere safe or additionally turn it into a bash variable with this command:
-```TF_VAR_sub_id=$(az account show --query id --output tsv)```
-*Note the variable starts with TF_VAR. This is because if we name a bash variable TF_VAR, Terraform will pick it up at runtime as an environment variable*
+### 4. Save the Subscription ID as a variable
+```sub_id=$(az account show --query id --output tsv)```
 
 <br>
 
-### 5. Use the export command so Terraform will recognize our variable:
+### 5. Pass the variable to Terraform
+*Note the variable starts with TF_VAR. This is because if we name it TF_VAR, Terraform will pick it up at runtime as an environment variable*
+<br>
 ```export TF_VAR_sub_id=$TF_VAR_sub_id```
-
 <br>
 
-### 6. Use GitHub to clone the repo with the following command:
+### 6. Clone the GitHub Repo
 ```git clone https://github.com/tkerbe2/tkdev-azure-terraform-cli-demo```
-
 <br>
 
-### 7. Move to the new directory with the following command:
+### 7. Open the new directory
 ```cd tkdev-azure-terraform-cli-demo```
 
-<br>
-
-### 8. Make sure all your files are there as you should see the following:
+### 8. Check the TF files in the new directory
 ```ls```
 
 ![image](https://github.com/user-attachments/assets/2a2ef8b4-8e83-477d-af32-9c2eb841ec8a)
 
 <br>
 
-### 9. Use nano or vi to edit the terraform.tfvars file (I use nano in this guide):
+### 9. Edit the Terraform.tfvars file
 ```nano terraform.tfvars```
 
 - Here you will change the name of the env variable to "prod" and change the org to something else
@@ -75,7 +74,7 @@ This demo creates the following resources:
 
 <br>
 
-### 10. Verify Terraform is installed with the version command:
+### 10. Verify Terraform is installed
 ```terraform version```
 <br>
 - Your output should look like what is below:
@@ -90,7 +89,7 @@ is 1.12.2. You can update by downloading from https://www.terraform.io/downloads
 ```
 <br>
 
-### 11. Verify you're still in the directory with TF files and perform a Terraform init:
+### 11. Initialize your new directory
 ```pwd```
 <br>
 ```/home/taylor/tkdev-azure-terraform-cli-demo```
@@ -103,7 +102,7 @@ is 1.12.2. You can update by downloading from https://www.terraform.io/downloads
 
 <br>
 
-### 12. Run a Terraform plan command:
+### 12. Run a Terraform plan command
 ```terraform plan```
 
 A successful Terraform plan should have similar output at the bottom:
@@ -111,7 +110,7 @@ A successful Terraform plan should have similar output at the bottom:
 
 <br>
 
-### 13. Run a Terraform apply command:
+### 13. Run a Terraform apply command
 ```terraform apply```
 <br>
 ![image](https://github.com/user-attachments/assets/cf6cdd57-8c97-4c19-8572-37cbe58c66ee)
@@ -130,7 +129,7 @@ A successful Terraform plan should have similar output at the bottom:
 
 ![image](https://github.com/user-attachments/assets/949dc15b-d8d9-483b-b7ed-dae5815b2bb8)
 
-### 15. Don't forget to destroy everything when you're done
+### 15. Destroy your resources and unset your variable
 - Terraform destroy will run a plan to destroy all resources and apply when confirmed.
 <br>
 ```terraform destroy```

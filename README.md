@@ -19,7 +19,9 @@ This demo creates the following resources:
 
 ### 1. Log into Azure and open Cloud Shell
 - In the top right corner of the UI there is a terminal looking icon.
+
 <br>
+
 ![cloudshell](https://github.com/user-attachments/assets/a24f345c-e380-4f54-8a4b-f6b8463c023e)
 
 ***

@@ -90,9 +90,11 @@ is 1.12.2. You can update by downloading from https://www.terraform.io/downloads
 
 ### 11. Verify you're still in the directory with TF files and perform a Terraform init:
 ```pwd```
+<br>
 ```/home/taylor/tkdev-azure-terraform-cli-demo```
+<br>
 ```terraform init```
-
+<br>
 If you are successful you should see soemthing similiar to the screenshot below:
 
 ![image](https://github.com/user-attachments/assets/adb4467b-d08b-4e25-88d0-66ca8205a45c)

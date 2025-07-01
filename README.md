@@ -155,12 +155,19 @@ is 1.12.2. You can update by downloading from https://www.terraform.io/downloads
 ### 13. Run a Terraform apply command
 ```terraform apply```
 <br>
+
 ![image](https://github.com/user-attachments/assets/cf6cdd57-8c97-4c19-8572-37cbe58c66ee)
+
 - Type yes and hit enter to proceed
+
 *Additionally you can use the following option to skip the validation check:*
+
 ```terraform apply -auto-approve```
+
 - A successful apply should yield the following output:\
+
 <br>
+
 ```Apply complete! Resources: 3 added, 0 changed, 0 destroyed.```
 
 ***

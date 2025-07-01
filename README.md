@@ -28,25 +28,25 @@ This demo creates the following resources:
 <br>
 
 ### 3. Run the following command:
-```az account show --query id --output tsv```
+```    az account show --query id --output tsv```
 <br>
 This is showing you your Azure subscription ID, this is highly sensitive.
 
 <br>
 
 ### 4. Save this output somewhere safe or additionally turn it into a bash variable with this command:
-```TF_VAR_sub_id=$(az account show --query id --output tsv)```
+```    TF_VAR_sub_id=$(az account show --query id --output tsv)```
 *Note the variable starts with TF_VAR. This is because if we name a bash variable TF_VAR, Terraform will pick it up at runtime as an environment variable*
 
 <br>
 
 ### 5. Test and make sure your variable has the correct output:
-```echo $TF_VAR_sub_id```
+```    echo $TF_VAR_sub_id```
 
 <br>
 
 ### 6. Use GitHub to clone the repo with the following command:
-```git clone https://github.com/tkerbe2/tkdev-azure-terraform-cli-demo```
+```    git clone https://github.com/tkerbe2/tkdev-azure-terraform-cli-demo```
 
 <br>
 

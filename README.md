@@ -191,8 +191,6 @@ is 1.12.2. You can update by downloading from https://www.terraform.io/downloads
 <br>
 
 ```terraform destroy```
-<br>
-
 - This will unset our variable
 ```unset TF_VAR_sub_id```
 

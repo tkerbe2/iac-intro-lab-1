@@ -53,6 +53,9 @@ This demo creates the following resources:
 ### 4. Save the Subscription ID as a variable
 ```sub_id=$(az account show --query id --output tsv)```
 
+<br>
+- We are setting a variable in bash with the output of the az account show command.
+
 ***
 
 <br>

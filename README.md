@@ -29,6 +29,7 @@ This demo creates the following resources:
 - You will be asked if you want to launch a bash or power shell cloud shell. Choose bash for this example.
 ![image](https://github.com/user-attachments/assets/e03421ca-8057-4539-bfe8-c638d9473b3b)
 <br>
+
 ***
 
 ### 3. Find your Azure Subscription ID
@@ -44,6 +45,7 @@ This demo creates the following resources:
 ### 4. Save the Subscription ID as a variable
 ```sub_id=$(az account show --query id --output tsv)```
 <br>
+
 ***
 
 ### 5. Pass the variable to Terraform

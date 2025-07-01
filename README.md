@@ -1,6 +1,6 @@
 ![tkdev_secondary](https://github.com/user-attachments/assets/45692378-8f3e-4df0-adb4-74b4d047a0d8)
 
-# Azure VNet Demonstration
+# 🧪 Azure VNet Demonstration- Guided Lab
 
 This lab will familiarize you with editing Terraform code, using the basic Terraform CLI commands, and lastly deploying resources.  
 

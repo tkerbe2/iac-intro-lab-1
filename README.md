@@ -1,4 +1,4 @@
-![tkdev_secondary](https://github.com/user-attachments/assets/45692378-8f3e-4df0-adb4-74b4d047a0d8)
+![tkdev_text_bg](https://github.com/user-attachments/assets/a9ae20b4-0e39-4cb3-8efe-62a3b2ad2ac3)
 
 <br>
 

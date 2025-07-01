@@ -39,6 +39,7 @@ This demo creates the following resources:
 <br>
 - This is showing you your Azure subscription ID, this is highly sensitive.
 <br>
+
 > **_Note:_** In a real world scenario we would want to pass this variable in a more secure way.
 
 ***
@@ -52,7 +53,9 @@ This demo creates the following resources:
 ***
 
 ### 5. Pass the variable to Terraform
+
 *Note the variable starts with TF_VAR. This is because if we name it TF_VAR, Terraform will pick it up at runtime as an environment variable*
+
 <br>
 ```export TF_VAR_sub_id=$TF_VAR_sub_id```
 

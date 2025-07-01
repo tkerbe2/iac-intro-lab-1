@@ -106,9 +106,13 @@ This demo creates the following resources:
 
 ### 10. Verify Terraform is installed
 ```terraform version```
+
 <br>
+
 - Your output should look like what is below:
+
 <br>
+
 ```
 Terraform v1.11.3
 on linux_amd64

@@ -52,9 +52,10 @@ This demo creates the following resources:
 
 ### 4. Save the Subscription ID as a variable
 ```sub_id=$(az account show --query id --output tsv)```
-<br>
 
 ***
+
+<br>
 
 ### 5. Pass the variable to Terraform
 
@@ -69,9 +70,10 @@ This demo creates the following resources:
 
 ### 6. Clone the GitHub Repo
 ```git clone https://github.com/tkerbe2/tkdev-azure-terraform-cli-demo```
-<br>
 
 ***
+
+<br>
 
 ### 7. Open the new directory
 ```cd tkdev-azure-terraform-cli-demo```

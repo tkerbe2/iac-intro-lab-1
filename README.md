@@ -84,6 +84,7 @@ This demo creates the following resources:
 
 ### 8. Check the TF files in the new directory
 ```ls```
+<br>
 ![image](https://github.com/user-attachments/assets/2a2ef8b4-8e83-477d-af32-9c2eb841ec8a)
 
 ***

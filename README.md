@@ -143,7 +143,9 @@ is 1.12.2. You can update by downloading from https://www.terraform.io/downloads
 ### 12. Run a Terraform plan command
 ```terraform plan```
 - A successful Terraform plan should have similar output at the bottom:
+
 <br>
+
 ```Plan: 3 to add, 0 to change, 0 to destroy.```
 
 ***

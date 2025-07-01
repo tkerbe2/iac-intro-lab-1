@@ -1,7 +1,6 @@
 ![tkdev_secondary](https://github.com/user-attachments/assets/45692378-8f3e-4df0-adb4-74b4d047a0d8)
 
-![tkdev_no_bg](https://github.com/user-attachments/assets/4c7cc5d7-1cf0-4a2c-b888-f761414ed4d8)
-
+<br>
 
 # 🧪 Azure VNet Demonstration- Guided Lab
 

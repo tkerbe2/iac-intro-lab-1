@@ -186,15 +186,19 @@ is 1.12.2. You can update by downloading from https://www.terraform.io/downloads
 <br>
 
 ### 15. Destroy your resources and unset your variable
+
+```terraform destroy```
+<br>
 - Terraform destroy will run a plan to destroy all resources and apply when confirmed.
 <br>
 
-```terraform destroy```
+```unset TF_VAR_sub_id```
+<br>
 - This will unset our variable
 
 <br>
 
-```unset TF_VAR_sub_id```
+
 
 ***
 

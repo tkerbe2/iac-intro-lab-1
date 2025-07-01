@@ -29,6 +29,7 @@ This demo creates the following resources:
 
 ### 3. Run the following command:
 ```az account show --query id --output tsv```
+<br>
 This is showing you your Azure subscription ID, this is highly sensitive.
 
 <br>

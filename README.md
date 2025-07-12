@@ -99,9 +99,9 @@ This demo creates the following resources:
 
 ### 9. Edit the Terraform.tfvars file
 ```nano terraform.tfvars```
-a. Here you will change the name of the env variable to "prod" and change the org to something else
-b. Ctrl+O to write your changes
-c. Ctrl+X to exit nano
+- Here you will change the name of the env variable to "prod" and change the org to something else
+- Ctrl+O to write your changes
+- Ctrl+X to exit nano
 <br>
 
 ![image](https://github.com/user-attachments/assets/edeac33b-d69b-4d3d-9d70-79ebf7c39b0a)
@@ -183,9 +183,9 @@ is 1.12.2. You can update by downloading from https://www.terraform.io/downloads
 ### 14. Go verify your resources in Azure UI
 ![image](https://github.com/user-attachments/assets/949dc15b-d8d9-483b-b7ed-dae5815b2bb8)
 
-a. Check your newly created Resource Group.
-b. Check your NSG and look for the policy it created.
-c. Lastly check your VNet and subnets.
+- Check your newly created Resource Group.
+- Check your NSG and look for the policy it created.
+- Lastly check your VNet and subnets.
 
 ***
 
@@ -195,12 +195,12 @@ c. Lastly check your VNet and subnets.
 
 ```terraform destroy```
 <br>
-a. Terraform destroy will run a plan to destroy all resources and apply when confirmed.
+- Terraform destroy will run a plan to destroy all resources and apply when confirmed.
 <br>
 
 ```unset TF_VAR_sub_id```
 <br>
-b. This will unset our variable
+- This will unset our variable
 
 <br>
 

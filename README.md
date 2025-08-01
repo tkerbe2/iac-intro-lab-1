@@ -3,7 +3,7 @@
 <br>
 
 
-# 🧪 Azure VNet Demonstration- Guided Lab
+# 🧪 Lab 1 - Azure VNet Demonstration
 
 This lab will familiarize you with editing Terraform code, using the basic Terraform CLI commands, and lastly deploying resources.  
 

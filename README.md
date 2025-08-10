@@ -166,11 +166,9 @@ is 1.12.2. You can update by downloading from https://www.terraform.io/downloads
 
 - Type yes and hit enter to proceed
 
-*Additionally you can use the following option to skip the validation check:*
+```terraform apply```
 
-```terraform apply -auto-approve```
-
-- A successful apply should yield the following output:\
+- A successful apply should yield the following output:
 
 <br>
 

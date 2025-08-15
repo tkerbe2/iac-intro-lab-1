@@ -22,7 +22,7 @@ This demo creates the following resources:
 - Network Security Group (NSG)
 - An NSG Policy allowing TCP 443 Inbound
 
-*To learn more about these resources check out the link below:*
+*To learn more about these resources check out the following:*
 [Microsoft Learn](https://learn.microsoft.com/en-us/azure/?product=popular)
 
 <br>

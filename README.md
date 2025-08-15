@@ -75,14 +75,14 @@ This demo creates the following resources:
 <br>
 
 ### 6. Clone the GitHub Repo
-```git clone https://github.com/tkerbe2/tkdev-azure-terraform-cli-demo```
+```git clone https://github.com/tkerbe2/iac-intro-lab-1```
 
 ***
 
 <br>
 
 ### 7. Open the new directory
-```cd tkdev-azure-terraform-cli-demo```
+```cd iac-intro-lab-1```
 
 ***
 
@@ -135,7 +135,7 @@ is 1.12.2. You can update by downloading from https://www.terraform.io/downloads
 ### 11. Initialize your new directory
 ```pwd```
 <br>
-```/home/taylor/tkdev-azure-terraform-cli-demo```
+```/home/taylor/iac-intro-lab-1```
 <br>
 ```terraform init```
 <br>
@@ -219,7 +219,7 @@ You've finished this lab and have completed the following items:
 - ✅ Initialized your directory.
 - ✅ Ran a Terraform plan and applied the changes.
 - ✅ Verified your resources in the Azure UI.
-- ✅ Ran a Terraform destroy and unset your variables
+- ✅ Ran a Terraform destroy and unset your variables.
 
 ***
 

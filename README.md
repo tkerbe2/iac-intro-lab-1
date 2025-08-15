@@ -5,7 +5,13 @@
 
 # 🧪 Lab 1 - Azure VNet Demonstration
 
-This lab will familiarize you with editing Terraform code, using the basic Terraform CLI commands, and lastly deploying resources.  
+This lab will be a quick demonstration of some basic Terraform. In this demonstration you will see me edit some Terraform code, use the basic Terraform CLI commands, and lastly deploy some resources. 
+
+### Azure and Cloud Shell
+
+One of the main reasons I use Azure Cloud Shell for this first demonstration is that it comes with Terraform installed by default and it is aware of your Azure subscription_id, tenant_id, client_id, client_secret so you do not need to provide them. While the rest of the lab focuses on AWS and HCP-Terraform, I wanted to give you a unique alternative to using Terraform CLI and Terraform Console in Azure Cloud Shell without having to install Terraform on your own workstation. Cloud Shell is essentially just a really light linux machine in the cloud and if you're familiar with Azure it can be a great way to get hands-on experience with the Terraform CLI. If we wanted to use the Azure provider without using Azure Cloud Shell or we did not have the proper permissions with our Azure account, we would have to have a service principal. To learn more about this topic check out the link below.
+
+[Azure Provider: Authenticating using a Service Principal with a Client Secret](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/service_principal_client_secret)
 
 ### Resources Created:
 This demo creates the following resources:

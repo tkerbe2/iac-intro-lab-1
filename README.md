@@ -181,6 +181,7 @@ is 1.12.2. You can update by downloading from https://www.terraform.io/downloads
 ### 14. Go verify your resources in Azure UI
 ![image](https://github.com/user-attachments/assets/949dc15b-d8d9-483b-b7ed-dae5815b2bb8)
 
+- Log into [Azure Portal](https://portal.azure.com/).
 - Check your newly created Resource Group.
 - Check your NSG and look for the policy it created.
 - Lastly check your VNet and subnets.

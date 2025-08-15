@@ -22,6 +22,9 @@ This demo creates the following resources:
 - Network Security Group (NSG)
 - An NSG Policy allowing TCP 443 Inbound
 
+*To learn more about these resources check out the link below:*
+[Microsoft Learn](https://learn.microsoft.com/en-us/azure/?product=popular)
+
 <br>
 
 # Lab Steps
@@ -48,6 +51,9 @@ This demo creates the following resources:
 <br>
 
 ### 3. Find your Azure Subscription ID
+
+- In the CLI of the Cloud Shell run the commands below:
+
 ```az account show --query id --output tsv```
 <br>
 - This is showing you your Azure subscription ID, this is highly sensitive.
@@ -61,6 +67,7 @@ This demo creates the following resources:
 
 ### 4. Save the Subscription ID as a variable
 
+- We're going to set a variable on our Cloud Shell session and call it sub_id with the command below:
 ```sub_id=$(az account show --query id --output tsv)```
 <br>
 - We are setting a variable in bash with the output of the az account show command.

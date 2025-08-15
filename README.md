@@ -5,7 +5,7 @@
 
 # 🧪 Lab 1 - Azure VNet Demonstration
 
-This lab will be a quick demonstration of some basic Terraform. In this demonstration you will see me edit some Terraform code, use the basic Terraform CLI commands, and lastly deploy some resources. 
+This lab will be a quick demonstration of some basic Terraform. In this demonstration you will see me edit some Terraform code, use the basic Terraform CLI commands, and lastly deploy some resources. If you have an Azure account and are comfortable using it - you can follow along with the steps below. This lab should not incur any costs in Azure as we are not creating any compute resources.+++
 
 ### Azure and Cloud Shell
 
@@ -128,7 +128,7 @@ This demo creates the following resources:
 
 <br>
 
-- Your output should look like what is below:
+- Your output should look similar to the output below:
 
 <br>
 
@@ -191,7 +191,7 @@ is 1.12.2. You can update by downloading from https://www.terraform.io/downloads
 
 <br>
 
-### 14. Go verify your resources in Azure UI
+### 14. Go verify your resources in Azure Portal UI
 ![image](https://github.com/user-attachments/assets/949dc15b-d8d9-483b-b7ed-dae5815b2bb8)
 
 - Log into [Azure Portal](https://portal.azure.com/).

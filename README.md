@@ -5,7 +5,7 @@
 
 # 🧪 Lab 1 - Azure VNet Demonstration
 
-This lab will be a quick demonstration of some basic Terraform. In this demonstration you will see me edit some Terraform code, use the basic Terraform CLI commands, and lastly deploy some resources. If you have an Azure account and are comfortable using it - you can follow along with the steps below. This lab should not incur any costs in Azure as we are not creating any compute resources.+++
+This lab will be a quick demonstration of some basic Terraform. In this demonstration you will see me edit some Terraform code, use the basic Terraform CLI commands, and lastly deploy some resources. If you have an Azure account and are comfortable using it - you can follow along with the steps below. This lab should not incur any costs in Azure as we are not creating any compute resources.
 
 ### Azure and Cloud Shell
 
